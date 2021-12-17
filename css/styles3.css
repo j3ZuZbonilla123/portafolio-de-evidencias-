@@ -1,0 +1,314 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo{
+    font-weight: 400;
+    text-align: center;
+}
+
+.linea{
+    background: blue;
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 95%;
+    margin: auto;
+    gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
+}
+.galeria > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+.galeria img{
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+.galeria a:hover img{
+    filter: blur(2px);
+    transform: rotate(10deg) scale(1.5);
+}
+
+/*texto imagen 1*/
+.texto111{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-31%, -50%);
+    -webkit-text-stroke: 2.5px rgb(255, 255, 255);
+    color: black;
+}
+.texto111{
+    font-size: 25px;
+    position: absolute;
+    top: 63%;
+    left: 27%;
+    transform: translate(-31%, 10%);
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+  color: black;
+}
+/*texto imagen 2*/
+.texto222{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-31%, -50%);
+    -webkit-text-stroke: 2.5px rgb(255, 255, 255);
+    color: black;
+}
+.texto222{
+    font-size: 25px;
+    position: absolute;
+    top: 63%;
+    left: 27%;
+    transform: translate(-31%, 10%);
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+  color: black;
+}
+/*texto imagen 3*/
+.texto333{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-31%, -50%);
+    -webkit-text-stroke: 2.5px rgb(255, 255, 255);
+    color: black;
+}
+.texto333{
+    font-size: 25px;
+    position: absolute;
+    top: 63%;
+    left: 27%;
+    transform: translate(-31%, 10%);
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+  color: black;
+}
+/*texto imagen 4*/
+.texto444{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-31%, -50%);
+    -webkit-text-stroke: 2.5px rgb(255, 255, 255);
+    color: black;
+}
+.texto444{
+    font-size: 25px;
+    position: absolute;
+    top: 63%;
+    left: 27%;
+    transform: translate(-31%, 10%);
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+  color: black;
+}
+/*texto imagen 5*/
+.texto555{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-31%, -50%);
+    -webkit-text-stroke: 2.5px rgb(255, 255, 255);
+    color: black;
+}
+.texto555{
+    font-size: 25px;
+    position: absolute;
+    top: 63%;
+    left: 27%;
+    transform: translate(-31%, 10%);
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+  color: black;
+}
+/*texto imagen 6*/
+.texto666{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-31%, -50%);
+    -webkit-text-stroke: 2.5px rgb(255, 255, 255);
+    color: black;
+}
+.texto666{
+    font-size: 25px;
+    position: absolute;
+    top: 63%;
+    left: 27%;
+    transform: translate(-31%, 10%);
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+  color: black;
+}
+/*texto imagen 7*/
+.texto777{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-31%, -50%);
+    -webkit-text-stroke: 2.5px rgb(255, 255, 255);
+    color: black;
+}
+.texto777{
+    font-size: 25px;
+    position: absolute;
+    top: 63%;
+    left: 27%;
+    transform: translate(-31%, 10%);
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+  color: black;
+}
+/*texto imagen 8*/
+.texto888{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-31%, -50%);
+    -webkit-text-stroke: 2.5px rgb(255, 255, 255);
+    color: black;
+}
+.texto888{
+    font-size: 25px;
+    position: absolute;
+    top: 63%;
+    left: 27%;
+    transform: translate(-31%, 10%);
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+  color: black;
+}
+/*texto imagen 9*/
+.texto999{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-31%, -50%);
+    -webkit-text-stroke: 2.5px rgb(255, 255, 255);
+    color: black;
+}
+.texto999{
+    font-size: 25px;
+    position: absolute;
+    top: 63%;
+    left: 27%;
+    transform: translate(-31%, 10%);
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+  color: black;
+}
+/*texto imagen 10*/
+.texto10{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-31%, -50%);
+    -webkit-text-stroke: 2.5px rgb(255, 255, 255);
+    color: black;
+}
+.texto10{
+    font-size: 25px;
+    position: absolute;
+    top: 63%;
+    left: 27%;
+    transform: translate(-31%, 10%);
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+  color: black;
+}
+/*texto imagen 11*/
+.texto11{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-31%, -50%);
+    -webkit-text-stroke: 2.5px rgb(255, 255, 255);
+    color: black;
+}
+.texto11{
+    font-size: 25px;
+    position: absolute;
+    top: 63%;
+    left: 27%;
+    transform: translate(-31%, 10%);
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+  color: black;
+}
+/*texto imagen 12*/
+.texto12{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-31%, -50%);
+    -webkit-text-stroke: 2.5px rgb(255, 255, 255);
+    color: black;
+}
+.texto12{
+    font-size: 25px;
+    position: absolute;
+    top: 63%;
+    left: 27%;
+    transform: translate(-31%, 10%);
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+  color: black;
+}
+/*texto imagen 13*/
+.texto13{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-31%, -50%);
+    -webkit-text-stroke: 2.5px rgb(255, 255, 255);
+    color: black;
+}
+.texto13{
+    font-size: 25px;
+    position: absolute;
+    top: 63%;
+    left: 27%;
+    transform: translate(-31%, 10%);
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+  color: black;
+}
+/*texto imagen 14*/
+.texto14{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-31%, -50%);
+    -webkit-text-stroke: 2.5px rgb(255, 255, 255);
+    color: black;
+}
+.texto14{
+    font-size: 25px;
+    position: absolute;
+    top: 63%;
+    left: 27%;
+    transform: translate(-31%, 10%);
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+  color: black;
+}
